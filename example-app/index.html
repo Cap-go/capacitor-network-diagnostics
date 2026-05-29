@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@capgo/capacitor-network-diagnostics Example</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>@capgo/capacitor-network-diagnostics</h1>
+
+      <section class="grid">
+        <label>
+          URL
+          <input id="url-value" type="url" value="https://www.google.com/generate_204" />
+        </label>
+
+        <label>
+          TCP host
+          <input id="host-value" type="text" value="google.com" />
+        </label>
+
+        <label>
+          TCP port
+          <input id="port-value" type="number" min="1" max="65535" value="443" />
+        </label>
+
+        <label>
+          WebSocket
+          <input id="websocket-value" type="url" value="wss://echo.websocket.events" />
+        </label>
+      </section>
+
+      <div class="actions">
+        <button id="get-status">Network status</button>
+        <button id="run-diagnostics">Run diagnostics</button>
+        <button id="get-version">Get plugin version</button>
+      </div>
+
+      <pre id="plugin-output">{}</pre>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

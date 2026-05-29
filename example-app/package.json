@@ -1,0 +1,21 @@
+{
+  "name": "network-diagnostics-example",
+  "version": "1.0.0",
+  "description": "Example Capacitor app for @capgo/capacitor-network-diagnostics",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.3.4",
+    "@capacitor/android": "^8.3.4",
+    "@capacitor/ios": "^8.3.4",
+    "@capgo/capacitor-network-diagnostics": "file:.."
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.3.4",
+    "vite": "^8.0.13"
+  }
+}

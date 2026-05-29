@@ -1,0 +1,5 @@
+{
+  "appId": "app.capgo.networkdiagnostics.example",
+  "appName": "Network Diagnostics Example",
+  "webDir": "dist"
+}
