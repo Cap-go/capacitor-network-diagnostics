@@ -4,7 +4,7 @@ import pkg from './package.json';
 
 const config: CapacitorConfig = {
   appId: 'app.capgo.networkdiagnostics.example',
-  appName: 'Network Diagnostics Example',
+  appName: '@capgo/capacitor-network-diagnostics',
   webDir: 'dist',
   plugins: {
     SplashScreen: {
