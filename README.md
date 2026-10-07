@@ -1,13 +1,28 @@
 # @capgo/capacitor-network-diagnostics
 
-<a href="https://capgo.app/"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-network-diagnostics" alt="Capgo - Instant updates for Capacitor" /></a>
+Find out why your Capacitor app cannot reach your backend: test connection type, HTTP reachability, TCP ports, WebSockets, download speed and packet loss from the device itself.
+
+<a href="https://capgo.app/?ref=plugin_network_diagnostics"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-network-diagnostics" alt="Capgo - Instant updates for Capacitor" /></a>
 
 <div align="center">
-  <h2><a href="https://capgo.app/?ref=plugin_network_diagnostics"> ➡️ Get Instant updates for your App with Capgo</a></h2>
-  <h2><a href="https://capgo.app/consulting/?ref=plugin_network_diagnostics"> Missing a feature? We’ll build the plugin for you 💪</a></h2>
+  <p><b>Capgo</b>: open-source live updates for Ionic and Capacitor apps. Ship OTA fixes and features instantly, without waiting for app store review.</p>
+  <h2><a href="https://capgo.app/register/?ref=plugin_network_diagnostics">➡️ Get started for free</a></h2>
+  <p>14-day unlimited free trial. No credit card required</p>
+  <p><a href="https://capgo.app/consulting/?ref=plugin_network_diagnostics">Missing a feature? We'll build the plugin for you 💪</a></p>
 </div>
 
-Capacitor plugin for native network diagnostics. It checks connection type, native HTTP reachability, TCP ports, WebSocket handshakes, download speed, and application-level packet loss from iOS and Android.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Cap-go/capacitor-network-diagnostics/main/assets/github-social-preview.png" alt="@capgo/capacitor-network-diagnostics for Capacitor apps" width="300" />
+</p>
+
+## Key features
+
+- **Network status**: `getNetworkStatus()` returns the native connection type and network flags.
+- **Reachability**: `testUrl()` for HTTP or HTTPS and `testPort()` for a TCP host and port.
+- **WebSockets**: `testWebSocket()` checks that a handshake completes.
+- **Performance**: `testDownloadSpeed()` and `testPacketLoss()`.
+- **One report**: `runDiagnostics()` runs several checks and returns a compact summary.
+- **Platforms**: iOS, Android and Web. Web runs the browser-capable checks. TCP port tests need native code.
 
 ## Install
 
